@@ -1,13 +1,37 @@
 # House Price Prediction using Advanced Regression Techniques
+# Project Overview
+This project focuses on predicting house prices using advanced regression techniques. The dataset used is the Kaggle House Prices: Advanced Regression Techniques dataset, which includes 79 features describing various aspects of residential homes. The goal is to build a robust regression model to predict the sale price of houses.
 
-## Project Description
-This project predicts house prices using advanced regression techniques such as Random Forest Regressor, Gradient Boosting Regressor, and XGBoost. The dataset is taken from Kaggle.
+# Technologies Used
+Programming Language: Python
 
-## Dataset
-The dataset is available on [Kaggle](https://www.kaggle.com/datasets/vikrishnan/boston-house-prices).
+Libraries:
 
-## Steps to Run the Project
-1. Clone this repository.
-2. Install the required libraries:
-   ```bash
-   pip install pandas scikit-learn seaborn matplotlib xgboost
+NumPy, Pandas, Matplotlib, Seaborn
+
+Scikit-learn (for regression models and evaluation)
+
+Regression Models:
+
+Linear Regression
+
+Ridge Regression
+
+Lasso Regression
+
+ElasticNet Regression
+
+Random Forest Regressor
+
+Gradient Boosting Regressor
+
+Tools: Jupyter Notebook, Google Colab, or any Python IDE
+
+# Dataset
+The dataset is available on Kaggle:
+
+House Prices: Advanced Regression Techniques
+
+train.csv: Training data with features and target variable (SalePrice).
+
+test.csv: Test data for making predictions.
